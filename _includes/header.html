@@ -1,3 +1,6 @@
+{% assign menu_pages = (site.pages | where: "active" , "true") %}
+
+
 <!-- Wrapper -->
 <div id="wrapper">
 
@@ -12,16 +15,18 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
+        {% for page in menu_pages %}
 		    {% if page.layout == "home" %}
 		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
-		{% for page in site.pages %}
+		{% for page in menu_pages %}
 		    {% if page.layout != "home" and page.nav-menu == true %}
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
+		<li><a href="http://marges.clairezuliani.com/">Carnet</a></li>
+
 	</ul>
 	<ul class="actions vertical">
 		<li><a href="#" class="button special fit">Get Started</a></li>
