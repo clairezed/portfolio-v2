@@ -63,11 +63,11 @@ include:
 
 # Collections -------------------------------------------
 
-# collections:
-#   team_members:
-#     output: true
-#     permalink: /equipe/:path/
-#     title: Equipe
+collections:
+  projects:
+    output: true
+    permalink: /projets/:path/
+    title: Projets
 
 # defaults ----------------------------------------------
 

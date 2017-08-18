@@ -1,0 +1,43 @@
+---
+layout: page
+title: Projets
+description: Liste de projets auxquels j'ai contribué, en tant que freelance, en agence ou à titre personnel.
+nav-menu: true
+active: true
+---
+
+<section id="banner" class="">
+		<div class="inner">
+				<span class="image">
+						<img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+				</span>
+				<header class="major">
+						<h1>{{ page.title }}</h1>
+				</header>
+				<div class="content">
+						{{ page.description }}
+				</div>
+		</div>
+</section>
+
+<section id="two" class="spotlights">
+	{% for post in site.projects %}
+	<section>
+		<a href="{{post.url}}" class="image">
+			<img src="{{ site.baseurl }}/{{ post.image }}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>{{post.title}}</h3>
+				</header>
+				<p>{{post.subtitle}}</p>
+				<ul class="actions">
+					<li><a href="{{post.url}}" class="button">Voir le projet</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	{% endfor %}
+</section>

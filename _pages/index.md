@@ -9,4 +9,13 @@ permalink: /
 active: true
 ---
 
-TOTONullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+
+<div class="row">
+	<div class="6u 12u$(small)">
+		<p>Développeuse web depuis 2012 après quelques années dans le secteur associatif culturel, je suis spécialisée en Ruby on Rails et bonne camarade avec javascript.</p>
+
+    <p>Quand je créé des outils web, j'ai en tête de les concevoir simples, légers, adaptés, répondant au mieux aux besoins de leurs utilisateurs et leur facilitant la vie.</p>
+
+    <p>Pour info, rien ne me fera plus plaisir que de contribuer à des projets engagés, humanistes, bienveillants, transformateurs et utiles !</p>
+	</div>
+</div>
