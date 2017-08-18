@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Accueil
 landing-title: 'Bonjour !'
 description: null
 image: null
