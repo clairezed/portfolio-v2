@@ -5,6 +5,7 @@
 */
 
 (function($) {
+	console.log("javascript ok");
 
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
