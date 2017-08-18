@@ -5,7 +5,40 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+
+@font-face{
+	font-family:'Source Sans Pro';
+	src:url('../fonts/SourceSansPro-Light.ttf');
+	// src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+	// 	url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+	// 	url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'),
+	// 	url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
+	// 	url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+	font-weight:300;
+	font-style:normal
+}
+@font-face{
+	font-family:'Source Sans Pro';
+	src:url('../fonts/SourceSansPro-LightItalic.ttf');
+	font-weight:300;
+	font-style:italic;
+}
+
+@font-face{
+	font-family:'Source Sans Pro';
+	src:url('../fonts/SourceSansPro-Bold.ttf');
+	font-weight:600;
+	font-style:normal
+}
+
+@font-face{
+	font-family:'Source Sans Pro';
+	src:url('../fonts/SourceSansPro-BoldItalic.ttf');
+	font-weight:600;
+	font-style:italic;
+}
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+
 
 /*
 	Forty by HTML5 UP

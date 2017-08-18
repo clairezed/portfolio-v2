@@ -1,68 +1,53 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: base
+---
 
-{% include head.html %}
 
-<body>
-
-    {% include header.html %}
-
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>Bonjour !</h1>
-            </header>
-            <div class="content">
-              <p class="major">Je m'appelle Claire, et je crée des outils web pour façonner le monde qui vient.</p>
-                <!-- <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul> -->
-            </div>
+<!-- Banner -->
+<section id="banner" class="major">
+    <div class="inner">
+        <header class="major">
+            <h1>Bonjour !</h1>
+        </header>
+        <div class="content">
+          <p class="major">Je m'appelle Claire, et je crée des outils web pour façonner le monde qui vient.</p>
+            <!-- <ul class="actions">
+                <li><a href="#one" class="button next scrolly">Get Started</a></li>
+            </ul> -->
         </div>
+    </div>
+</section>
+
+<!-- Main -->
+<div id="main">
+
+    <section>
+      <div class="inner">
+        <div class="row">
+
+          <div class="6u 12u$(small)">
+            <header class="major">
+                <h2>Le monde qui vient ?</h2>
+            </header>
+        		<p>Je cherche à outiller les personnes et organisations qui, par leurs pratiques et ambitions, construisent des alternatives.</p>
+            <p>Je m'inscris dans les dynamiques de la transition, des communs, de l'open source et de la coopération. Entre autres.</p>
+            <p>Rien ne me fera plus plaisir que de contribuer à des projets engagés, humanistes, pensés avec leurs utilisateurs, transformateurs et utiles !</p>
+        	</div>
+          <div class="6u 12u$(small)">
+            <header class="major">
+              <h2>Des outils web ?</h2>
+            </header>
+            <p>Je crée des applications web complexes pour vous rendre plus efficaces ou mieux servir vos usagers (plateformes, marketplace, CRM...).</p>
+            <p>Je développe des sites web décroissants (légers, simples, rapides et performants) pour les besoins plus modestes.</p>
+            <p>J'accompagne aussi les structures en amont, dans la définition de leurs besoins (intelligence collective, tests utilisateurs, formation...)</p>
+            <ul class="actions">
+              <li><a href="{{ "projects" | absolute_url }}" class="button next">Voir les projets</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
     </section>
 
-    <!-- Main -->
-    <div id="main">
 
-        <section>
-          <div class="inner">
-            <div class="row">
-
-              <div class="6u 12u$(small)">
-                <header class="major">
-                    <h2>Le monde qui vient ?</h2>
-                </header>
-            		<p>Je cherche à outiller les personnes et organisations qui, par leurs pratiques et ambitions, construisent des alternatives.</p>
-                <p>Je m'inscris dans les dynamiques de la transition, des communs, de l'open source et de la coopération. Entre autres.</p>
-                <p>Rien ne me fera plus plaisir que de contribuer à des projets engagés, humanistes, pensés avec leurs utilisateurs, transformateurs et utiles !</p>
-            	</div>
-              <div class="6u 12u$(small)">
-                <header class="major">
-                  <h2>Des outils web ?</h2>
-                </header>
-                <p>Je crée des applications web complexes pour vous rendre plus efficaces ou mieux servir vos usagers (plateformes, marketplace, CRM...).</p>
-                <p>Je développe aussi des sites web décroissants (légers, simples, rapides et performants) pour les besoins plus modestes.</p>
-                <p>J'accompagne aussi les structures en amont, dans la définition de leurs besoins (ntelligence collective, tests utilisateurs, formation...)</p>
-                <ul class="actions">
-                  <li><a href="{{ "projects"| | absolute_url }}" class="button next">Voir les projets</a></li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-
-    </div>
-
-    {% include footer.html %}
-
-</body>
-
-</html>
+</div>
