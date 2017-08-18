@@ -2,7 +2,7 @@
 layout: page
 title: Elements
 nav-menu: true
-active: true
+active: false
 ---
 
 <!-- Main -->

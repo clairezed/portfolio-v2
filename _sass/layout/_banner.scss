@@ -90,6 +90,10 @@
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
+					&.major {
+						font-size: 1em;
+						text-transform: uppercase
+					}
 				}
 			}
 		}

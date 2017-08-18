@@ -16,10 +16,10 @@
     <section id="banner" class="major">
         <div class="inner">
             <header class="major">
-                <h1>{{ page.landing-title }}</h1>
+                <h1>Bonjour !</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+              <p class="major">Je m'appelle Claire, et je crée des outils web pour façonner le monde qui vient.</p>
                 <!-- <ul class="actions">
                     <li><a href="#one" class="button next scrolly">Get Started</a></li>
                 </ul> -->
@@ -30,21 +30,34 @@
     <!-- Main -->
     <div id="main">
 
-        <!-- One -->
-        {% include tiles.html %}
+        <section>
+          <div class="inner">
+            <div class="row">
 
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
+              <div class="6u 12u$(small)">
                 <header class="major">
-                    <h2>Qui suis-je</h2>
+                    <h2>Le monde qui vient ?</h2>
                 </header>
-                <p>{{ content }}</p>
-                <!-- <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul> -->
+            		<p>Je cherche à outiller les personnes et organisations qui, par leurs pratiques et ambitions, construisent des alternatives.</p>
+                <p>Je m'inscris dans les dynamiques de la transition, des communs, de l'open source et de la coopération. Entre autres.</p>
+                <p>Rien ne me fera plus plaisir que de contribuer à des projets engagés, humanistes, pensés avec leurs utilisateurs, transformateurs et utiles !</p>
+            	</div>
+              <div class="6u 12u$(small)">
+                <header class="major">
+                  <h2>Des outils web ?</h2>
+                </header>
+                <p>Je crée des applications web complexes pour vous rendre plus efficaces ou mieux servir vos usagers (plateformes, marketplace, CRM...).</p>
+                <p>Je développe aussi des sites web décroissants (légers, simples, rapides et performants) pour les besoins plus modestes.</p>
+                <p>J'accompagne aussi les structures en amont, dans la définition de leurs besoins (ntelligence collective, tests utilisateurs, formation...)</p>
+                <ul class="actions">
+                  <li><a href="{{ "projects"| | absolute_url }}" class="button next">Voir les projets</a></li>
+                </ul>
+              </div>
+
             </div>
+          </div>
         </section>
+
 
     </div>
 
