@@ -12,6 +12,7 @@ technologies:
   - jekyll
 year_released: 2016
 month_released: Juillet
+date: 01/07/2016
 website_url: http://marges.clairezuliani.com/
 image: assets/images/projects/Marges01.png
 ---

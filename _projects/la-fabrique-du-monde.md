@@ -11,6 +11,7 @@ technologies:
   - ruby on rails
 year_released: 2017
 month_released: Juin
+date: 01/06/2017
 website_url: https://www.lafabriquedumonde.fr/
 image: assets/images/projects/FabriqueMonde01.png
 ---

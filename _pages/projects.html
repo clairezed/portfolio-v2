@@ -21,7 +21,10 @@ active: true
 </section>
 
 <section id="two" class="spotlights">
-	{% for post in site.projects %}
+
+
+	{% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+	{% for post in sorted_projects %}
 	<section>
 		<a href="{{post.url}}" class="image">
 			<img src="{{ site.baseurl }}/{{ post.image }}" alt="" data-position="center center" />
