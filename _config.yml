@@ -5,7 +5,7 @@ description: Je m'appelle Claire, et je créé des outils web pour les humains.
 # description: Portfolio de Claire Zuliani, développeuse web full stack, ruby on rails et javascript.
 # baseurl: "/jekyll-starter" # the subpath of your site, e.g. /blog
 # url: "https://clairezed-portfolio.netlify.com" # the base hostname & protocol for your site
-url: "http://www.clairezuliani.com" # the base hostname & protocol for your site
+url: "https://www.clairezuliani.com" # the base hostname & protocol for your site
 email: clairezuliani@gmail.com
 
 
