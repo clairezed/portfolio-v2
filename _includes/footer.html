@@ -5,7 +5,7 @@
 
 
 			<!-- <form name="contact" method="POST" action="{{'contact-merci' | absolute_url }}" netlify > -->
-			<form name="contact" data-is-form='ajax' action="{{'contact-merci' | absolute_url }}"  >
+			<!-- <form name="contact" data-is-form='ajax' action="{{'contact-merci' | absolute_url }}"  >
 				<div class="field half first">
 					<label for="name">Nom</label>
 					<input type="text" name="name" id="name" />
@@ -22,17 +22,14 @@
 					<li><input type="submit" value="Envoyer le message" class="special" /></li>
 					<li><input type="reset" value="Réinitialiser" /></li>
 				</ul>
-				<!-- <input type="hidden" name="_subject" value="[ClaireZuliani] nouveau contact" />
-				<input type="hidden" name="_next" value="{{"contact-merci" | absolute_url }}" />
-				<input type="hidden" name="_language" value="fr" /> -->
 			</form>
 			<div data-is-result-form='ajax' style="display: none;">
 				<h4>Merci ! </h4>
 				<p>Merci d'avoir pris contact, je reviens vers vous rapidement. Promis.
 				<br>Bonne suite de lecture !</p>
-			</div>
+			</div> -->
 
-			<!-- <form action="https://formspree.io/{{ site.email }}" method="POST">
+			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
 					<label for="name">Nom</label>
 					<input type="text" name="name" id="name" />
@@ -52,7 +49,7 @@
 				<input type="hidden" name="_subject" value="[ClaireZuliani] nouveau contact" />
 				<input type="hidden" name="_next" value="{{"contact-merci" | absolute_url }}" />
 				<input type="hidden" name="_language" value="fr" />
-			</form> -->
+			</form>
 
 
 		</section>

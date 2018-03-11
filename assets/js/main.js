@@ -355,6 +355,7 @@
 	  var $form = $(this);
 		console.log($form)
 		console.log($form.attr("action"))
+		console.log($form.serialize())
 	  $.post($form.attr("action"), $form.serialize()).then(function() {
 			$("[data-is-form='ajax']").slideUp()
 			$("[data-is-result-form='ajax']").slideDown()
