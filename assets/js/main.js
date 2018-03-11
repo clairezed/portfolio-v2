@@ -350,8 +350,10 @@
 	});
 
 	$("[data-is-form='ajax']").submit(function(e) {
+		console.log("submit!")
 	  e.preventDefault();
 	  var $form = $(this);
+		console.log($form)
 	  $.post($form.attr("action"), $form.serialize()).then(function() {
 			$("[data-is-form='ajax']").slideUp()
 			$("[data-is-result-form='ajax']").slideDown()
