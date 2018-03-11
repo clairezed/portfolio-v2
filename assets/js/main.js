@@ -349,4 +349,13 @@
 
 	});
 
+	$("[data-is-form='ajax']").submit(function(e) {
+	  e.preventDefault();
+	  var $form = $(this);
+	  $.post($form.attr("action"), $form.serialize()).then(function() {
+			$("[data-is-form='ajax']").slideUp()
+			$("[data-is-result-form='ajax']").slideDown()
+	  });
+	});
+
 })(jQuery);
