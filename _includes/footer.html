@@ -4,7 +4,7 @@
 		<section>
 
 			<!-- <form name="contact" data-is-form='ajax' netlify > -->
-			<form name="contact" method="POST" action="{{"contact-merci?" | absolute_url }}" netlify >
+			<form name="contact" action="{{'contact-merci' | absolute_url }}" netlify >
 				<div class="field half first">
 					<label for="name">Nom</label>
 					<input type="text" name="name" id="name" />
@@ -31,7 +31,7 @@
 				<br>Bonne suite de lecture !</p>
 			</div>
 
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
+			<!-- <form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
 					<label for="name">Nom</label>
 					<input type="text" name="name" id="name" />
@@ -51,7 +51,7 @@
 				<input type="hidden" name="_subject" value="[ClaireZuliani] nouveau contact" />
 				<input type="hidden" name="_next" value="{{"contact-merci" | absolute_url }}" />
 				<input type="hidden" name="_language" value="fr" />
-			</form>
+			</form> -->
 
 
 		</section>
