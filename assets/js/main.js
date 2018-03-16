@@ -353,6 +353,8 @@
 		console.log("submission ! ");
 		e.preventDefault();
 		var $form = $(this);
+		console.log($form.attr("action"))
+		console.log($form.serialize())
 		$.post($form.attr("action"), $form.serialize()).then(function() {
 			console.log("submission Received ! ");
 			$("[data-is-result-form='ajax']").slideDown()
