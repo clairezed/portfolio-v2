@@ -4,19 +4,30 @@
 		<section>
 
 			<form name="mailing-list" data-is-form='ajax' netlify>
-				<div>
-					<label>E-mail</label>
+				<div class="field half first">
+					<label for="name">Nom</label>
+					<input type="text" name="name" id="name" />
 				</div>
-					<div class='input'>
-					<input type="email" name="email" class="formatted-input">
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" />
 				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Envoyer le message" class="special" /></li>
+					<li><input type="reset" value="Réinitialiser" /></li>
+				</ul>
 					<div>
 					<button type="submit">Envoyer</button>
 				</div>
 			</form>
 			<div class="form-result" data-is-result-form='ajax' style="display: none;" >
 				<h4>Merci ! </h4>
-				<p>Votre adresse mail nous a bien été envoyée, nous reviendrons vers vous rapidement.
+				<p>Merci d'avoir pris contact, je reviens vers vous rapidement. Promis.
+				<br>Bonne suite de lecture !</p>
 			</div>
 
 
@@ -44,7 +55,7 @@
 				<p>Merci d'avoir pris contact, je reviens vers vous rapidement. Promis.
 				<br>Bonne suite de lecture !</p>
 			</div> -->
-<!-- 
+<!--
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
 					<label for="name">Nom</label>
