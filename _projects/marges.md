@@ -10,6 +10,8 @@ tasks:
   - déploiement
 technologies:
   - jekyll
+  - netlify
+  - algolia
 year_released: 2016
 month_released: Juillet
 date: 01/07/2016

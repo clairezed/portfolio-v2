@@ -147,6 +147,6 @@ dl {
 	}
 }
 
-p+ul {
+p+ul:not(.actions) {
 	margin-top: -2em;
 }
