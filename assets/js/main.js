@@ -350,16 +350,26 @@
 	});
 
 	$("[data-is-form='ajax']").submit(function(e) {
-		console.log("submit!")
-	  e.preventDefault();
-	  var $form = $(this);
-		console.log($form)
-		console.log($form.attr("action"))
-		console.log($form.serialize())
-	  $.post($form.attr("action"), $form.serialize()).then(function() {
-			$("[data-is-form='ajax']").slideUp()
+		console.log("submission ! ");
+		e.preventDefault();
+		var $form = $(this);
+		$.post($form.attr("action"), $form.serialize()).then(function() {
+			console.log("submission Received ! ");
 			$("[data-is-result-form='ajax']").slideDown()
-	  });
+		});
 	});
+
+	// $("[data-is-form='ajax']").submit(function(e) {
+	// 	console.log("submit!")
+	//   e.preventDefault();
+	//   var $form = $(this);
+	// 	console.log($form)
+	// 	console.log($form.attr("action"))
+	// 	console.log($form.serialize())
+	//   $.post($form.attr("action"), $form.serialize()).then(function() {
+	// 		$("[data-is-form='ajax']").slideUp()
+	// 		$("[data-is-result-form='ajax']").slideDown()
+	//   });
+	// });
 
 })(jQuery);

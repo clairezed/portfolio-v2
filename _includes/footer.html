@@ -3,6 +3,22 @@
 	<div class="inner">
 		<section>
 
+			<form name="mailing-list" data-is-form='ajax' netlify>
+				<div>
+					<label>E-mail</label>
+				</div>
+					<div class='input'>
+					<input type="email" name="email" class="formatted-input">
+				</div>
+					<div>
+					<button type="submit">Envoyer</button>
+				</div>
+			</form>
+			<div class="form-result" data-is-result-form='ajax' style="display: none;" >
+				<h4>Merci ! </h4>
+				<p>Votre adresse mail nous a bien été envoyée, nous reviendrons vers vous rapidement.
+			</div>
+
 
 			<!-- <form name="contact" method="POST" action="{{'contact-merci' | absolute_url }}" netlify > -->
 			<!-- <form name="contact" data-is-form='ajax' action="{{'contact-merci' | absolute_url }}"  >
@@ -28,7 +44,7 @@
 				<p>Merci d'avoir pris contact, je reviens vers vous rapidement. Promis.
 				<br>Bonne suite de lecture !</p>
 			</div> -->
-
+<!-- 
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
 				<div class="field half first">
 					<label for="name">Nom</label>
@@ -49,7 +65,7 @@
 				<input type="hidden" name="_subject" value="[ClaireZuliani] nouveau contact" />
 				<input type="hidden" name="_next" value="{{"contact-merci" | absolute_url }}" />
 				<input type="hidden" name="_language" value="fr" />
-			</form>
+			</form> -->
 
 
 		</section>
