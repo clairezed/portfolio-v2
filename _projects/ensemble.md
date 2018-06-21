@@ -30,3 +30,6 @@ Un aperçu du temps de résidence a été publié sur [24joursdeweb.fr](https://
 Résultat : une application la plus épurée possible, avec une attention forte portée sur la compréhension du langage et sur l'iconographie, afin que l'application soit accessible au plus grand nombre.
 
 Un projet mené pour le compte et en partenariat avec l'association [MIRADOR](http://www.project-mirador.org/) et avec la complicité de Gabriel Loisy ([Phi²](http://phicarre.fr/)), qui a assuré le design.
+
+Pour en savoir plus :
+-[ Reportage Vosges Télévision](https://www.vosgestelevision.tv/Journal/Journal-mardi-6-fevrier-Eli9e9120.html) - "Un site qui rapproche", 6 février 2018
