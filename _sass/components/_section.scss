@@ -68,3 +68,7 @@
 			}
 		}
 	}
+
+	.small-inner {
+		max-width: _size(small-inner) !important;
+	}

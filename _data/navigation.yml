@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: Accueil
+  url: /
+
+- title: Projets
+  url: /projects
+
+- title: Qui
+  url: /who
+
+- title: Maintenant
+  url: /now
