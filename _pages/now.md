@@ -15,6 +15,6 @@ Actuellement, je :
 - **développe le guide du consomacteur d'Epinal**, qui intègre actuellement une carte de Communecter
 - **essaye d'appliquer la méthode GTD** pour gagner en sérénité dans ma gestion quotidienne (oui, je lis des bouquins qu'on trouve dans les rayons "productivité", et mon sentiment à ce sujet n'est pas très clair)
 - **Lis [le livre sur Node.js](https://oncletom.io/node.js) écrit par Thomas Parisot** (trop lentement à mon goût)
-- **Prends le relais sur l'appel à projet du Transformateur Numérique « Travail et communs, travail en commun »** au nom d'Happy Dev, car les associés manquent de temps
+- **Prends le relais sur l'[appel à projet du Transformateur Numérique](https://www.letransformateur.fr/appels-a-projets-thematiques/candidats-8e-appel-projets) « Travail et communs, travail en commun »** au nom d'Happy Dev, car les associés manquent de temps
 - **Anime un atelier pour créer un annuaire de partenaires techniques** pour [Plateformes en Commun](http://plateformes.coopdescommuns.org/)
 - prends le temps **développer le site de ma future agence orientée transition et communs**
