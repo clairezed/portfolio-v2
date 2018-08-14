@@ -16,5 +16,6 @@ Actuellement, je :
 - **Prends le relais sur l'[appel à projet du Transformateur Numérique](https://www.letransformateur.fr/appels-a-projets-thematiques/candidats-8e-appel-projets) « Travail et communs, travail en commun »** au nom d'Happy Dev, car les associés manquent de temps
 - **Anime un atelier pour créer un annuaire de partenaires techniques** pour [Plateformes en Commun](http://plateformes.coopdescommuns.org/)
 - prends le temps **développer le site de ma future agence orientée transition et communs**
-- fais du tri et des cartons. Plein.
+- fais du tri et des cartons. Plein (déménagement).
 - nidifie
+- m'inprègne du concept d'effondrement, non sans une certaine angoisse
