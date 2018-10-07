@@ -13,7 +13,7 @@ technologies:
 year_released: 2018
 month_released: Mars
 date: 15/03/2018
-website_url: http://marges.clairezuliani.com/
+website_url: https://www.ensemble-app.fr/
 image: assets/images/projects/ensemble01.png
 ---
 
@@ -25,7 +25,7 @@ L'une des particularités du site est qu'il a été conçu au plus près des per
 - résidence de prototypage avec un groupe de 12 habitants d'Epinal de cultures étrangères,
 - 2 séances de tests d'utilisation ultérieurs avec 3 x 6 personnes à chaque fois.
 
-Un aperçu du temps de résidence a été publié sur [24joursdeweb.fr](https://www.24joursdeweb.fr/2017/ceci-nest-pas-un-design-sprint/#comment-176850).
+Un aperçu du temps de résidence a été publié sur [24joursdeweb.fr](https://www.24joursdeweb.fr/2017/ceci-nest-pas-un-design-sprint).
 
 Résultat : une application la plus épurée possible, avec une attention forte portée sur la compréhension du langage et sur l'iconographie, afin que l'application soit accessible au plus grand nombre.
 
