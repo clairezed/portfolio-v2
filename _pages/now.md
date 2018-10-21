@@ -15,7 +15,7 @@ Actuellement, je :
 - **anime un atelier pour créer un annuaire de partenaires techniques** pour [Plateformes en Communs](http://plateformes.coopdescommuns.org/), et planche sur la mise à jour de la communication du groupement,
 - apporte les finition au site de **[l'assembleuse](https://www.lassembleuse.fr/)**, nouvelle vitrine de mes activités,
 - prends du bide,
-- m"intègre à [Coopaname](http://www.coopaname.coop/) et met un pied dans [Numericoop](https://colibris-wiki.org/NumeriCoop/wakka.php?wiki=OutilsUtilises), le collectif des métiers du numérique de la coopérative,
+- m'intègre à [Coopaname](http://www.coopaname.coop/) et met un pied dans [Numericoop](https://colibris-wiki.org/NumeriCoop/wakka.php?wiki=OutilsUtilises), le collectif des métiers du numérique de la coopérative,
 - lis et écoute énormément de ressources sur l'effondrement, la transition, la sobriété, la coopération.
 
 
