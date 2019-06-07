@@ -3,7 +3,7 @@ layout: post
 title: Maintenant - Now
 ---
 
-*Ceci est une page [now](https://nownownow.com/about), qui permet d'avoir un aperçu de ce que je fais **actuellement** (à quelques semaines près).*
+*Ceci est une page [now](https://nownownow.com/about), qui permet d'avoir un aperçu de ce que je fais actuellement (à quelques semaines près).*
 
 Actuellement, je :
 - planche sur l'évolution du site du collectif d’entrepreneurs engagés dans la transition écologique, [Képos](https://www.kepos.fr/) qui devient une SCIC ! L'occasion de pousser plus loin mes expérimentations JAMstack en réfléchissant à la gestion des souscriptions,
