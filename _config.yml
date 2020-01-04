@@ -68,6 +68,10 @@ collections:
     output: true
     permalink: /projets/:path/
     title: Projets
+  weeknotes:
+    output: true
+    permalink: /weeknotes/:path/
+    title: Weeknotes
 
 # defaults ----------------------------------------------
 

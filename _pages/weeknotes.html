@@ -1,0 +1,31 @@
+---
+layout: page
+title: Weeknotes
+---
+
+<section id="banner" class="">
+		<div class="inner">
+				<header class="major">
+						<h1>{{ page.title }}</h1>
+				</header>
+				<div class="content">
+						{{ page.description }}
+				</div>
+		</div>
+</section>
+
+<section id="two" class="bg-alt">
+	<div class="inner">
+
+	<ul>
+		{% assign sorted_weeknotes = site.weeknotes | sort: 'date' | reverse %}
+		{% for weeknote in sorted_weeknotes %}
+			<li>
+			<a href="{{weeknote.url}}">
+				{{weeknote.title}}
+			</a>
+	{% endfor %}
+	</ul>
+	</div>
+
+</section>
