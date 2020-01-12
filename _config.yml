@@ -8,9 +8,6 @@ description: Je m'appelle Claire, et je créé des outils web pour les humains.
 url: "https://www.clairezuliani.com" # the base hostname & protocol for your site
 email: clairezuliani@gmail.com
 
-
-
-
 # Contact settings ------------------------------------
 author: Claire Zuliani
 street_address: 17 rue Léopold Bourg
@@ -43,6 +40,9 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+
+plugins:
+  - jekyll-feed
 
 # Sass ------------------------------------------------
 
