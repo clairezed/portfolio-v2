@@ -10,6 +10,7 @@ layout: base
 	<div class="inner small-inner">
 		<header class="major">
 			<h1>{{ page.title }}</h1>
+			<p>{{page.date | date: "%-d/%m/%Y"  }}</p>
 		</header>
 		<p>{{ content }}</p>
 	</div>
