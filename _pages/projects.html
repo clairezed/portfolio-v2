@@ -21,7 +21,8 @@ description: Liste de projets auxquels j'ai contribué, en tant que freelance, e
 <section id="two" class="spotlights">
 
 
-	{% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+	{% assign sorted_projects = site.projects | where_exp:"project",
+"project.archived != true" | sort: 'date' | reverse %}
 	{% for post in sorted_projects %}
 	<section>
 		<a href="{{post.url}}" class="image">

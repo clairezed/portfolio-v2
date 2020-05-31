@@ -2,7 +2,7 @@
 layout: project
 title: La fabrique du monde
 subtitle: Boite à outil dédiée à la mobilité
-category: Freelance
+category: A mon compte
 tasks:
   - intégration
   - développement
@@ -17,4 +17,4 @@ image: assets/images/projects/FabriqueMonde01.png
 ---
 Mirador, chouette association spinalienne spécialisée dans la résolution de conflits, souhaitait créer une boîte à outil dématérialisée de ressources dédiées aux projets de mobilité.
 
-C'était ma première collaboration avec Gabriel Loisy ([Phi²](http://phicarre.fr/)), qui a brillament pris en charge toute la partie design : et j'espère bien que ce ne sera pas la dernière.
+C'était ma première collaboration avec Gabriel Loisy ([Phi²](http://phicarre.fr/)), qui a brillament pris en charge toute la partie design.

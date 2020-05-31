@@ -17,6 +17,7 @@ month_released: Juillet
 date: 01/07/2016
 website_url: http://marges.clairezuliani.com/
 image: assets/images/projects/Marges01.png
+archived: true
 ---
 
 Je passe beaucoup -trop ?- de temps sur internet à lire des articles et faire de la veille, et je cherchais un moyen de garder une trace de mes recherches, de compiler une base de connaissance. Je voulais que cette base de connaissance soit très facile à mettre à jour, un tantinet organisée, sur un support léger, et surtout je voulais garder la main sur mes données.

@@ -2,7 +2,7 @@
 layout: project
 title: Marketplace LabRH
 subtitle: Place de marché non monétaire
-category: Freelance
+category: A mon compte
 tasks:
   - développement back
 technologies:

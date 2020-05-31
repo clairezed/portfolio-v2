@@ -2,7 +2,7 @@
 layout: project
 title: Ensemble
 subtitle: Site de rencontres interculturelles autour d'activités
-category: Freelance
+category: A mon compte
 tasks:
   - intégration
   - développement
